@@ -1,0 +1,225 @@
+:root {
+    --main-black: #222;
+    --white-color: #fff;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    color: var(--main-black);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+
+
+.header_container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+/* ------------------- Header ----------------- */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.logo_wrapper {
+    display: flex;
+}
+
+.tariff_list {
+    display: flex;
+    gap: 22px;
+}
+
+.nav_wrapper {
+    display: flex;
+}
+
+.nav_list {
+    display: flex;
+    gap: 30px;
+}
+
+.btn_download{
+background-color: transparent;
+color: var(--main-black);
+text-align: center;
+font-family: Nunito;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+border-radius: 48px;
+border: 1px solid #000;
+background: #FFF;
+padding: 12px 32px 11px;
+margin-left: 40px;
+
+cursor: pointer;
+transition: all 0.2s ease;
+}
+
+.btn_download:hover {
+background-color: var(--main-black);
+color: var(--white-color);
+}
+
+/* ------------------- Hero ----------------- */
+.hero_section {
+    padding-top: 40px;
+    padding-bottom: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_wrapper {
+    width: 480px;
+    margin-top: 172px;
+    margin-left: 45px;
+}
+
+.hero_pretitle {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.56;
+    margin-bottom: 33px;
+}
+
+.main_title {
+    font-family: Nunito;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50.4px;
+    width: 369px;
+    height: 100px;
+    margin-bottom: 23px;
+}
+
+.hero_description {
+        font-size: 18px;
+        font-style: normal;
+        line-height: 1.44;
+        margin-bottom: 13px;
+}
+
+.market_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 169px;
+}
+
+/* ------------------- Waranty ----------------- */
+.waranty_section {
+    padding-top: 23px;
+    padding-bottom: 99px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.waranty_wrapper {
+    width: 480px;
+    height: 228px;
+    margin-top: 314px;
+    margin-right: 45px;
+}
+
+.waranty_title {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.22;
+        margin-bottom: 22px;
+}
+
+.waranty_descr {
+        margin-bottom: 12px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.44;
+}
+
+.waranty_descr1 {
+    margin-bottom: 12px;
+}
+
+/* ------------------- Zencare ----------------- */
+.zencare_section {
+    padding-top: 32px;
+    padding-bottom: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zencare_wrapper {
+    width: 480px;
+    margin-top: 198px;
+}
+
+.zencare_title {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.22;
+        margin-bottom: 22px;
+}
+
+.zencare_descr {
+    color: #222;
+        font-family: Nunito;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.44;
+}
+
+.zencare1 {
+width: 451px;
+margin-bottom: 12px;
+}
+
+.zencare2 {
+    width: 366px;
+    margin-bottom: 17px;
+}
+
+.zencare3 {
+    width: 448px;
+}
